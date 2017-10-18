@@ -12,11 +12,6 @@
 	left: 50%;
 	margin-left:-50px;
 }
-.topic{
-	color:#FFF;
-	background:rgba(0, 0, 0, 0.5);
-	padding: 10px 0 10px 0;
-}
 
 .btn {
 	background-color: #3057CB;
@@ -36,4 +31,34 @@
 .myform textarea.inputError:focus,
 .input-group .form-control:focus {
 	border: 2px solid #3057CB;
+}
+
+#tv div{
+	width:400px;
+	height:400px;
+	background: url("../img/retro-tv.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	z-index: 1;
+	pointer-events: none;
+}
+#tv iframe{
+	width:285px;
+	height:285px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top: -93px;
+	margin-left: -170px;
+}
+#newsletter-form {
+	float:none !important;
+}
+.social-links{
+	float: none;
 }
