@@ -1,5 +1,7 @@
 #home {
 	background-image: url('../img/index.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .logo{
 	position: absolute;
@@ -8,11 +10,14 @@
 	background-image: url('../img/logo.png');
 	background-size: contain;
 	/*background-color: green;*/
-	top:30px;
+	top:50%;
 	left: 50%;
+	margin-top:-260px;
 	margin-left:-50px;
 }
-
+p {
+	margin:0;
+}
 .btn {
 	background-color: #3057CB;
 	border: 1px solid #3057CB;
@@ -33,7 +38,7 @@
 	border: 2px solid #3057CB;
 }
 
-#tv div{
+#tv .tv{
 	width:400px;
 	height:400px;
 	background: url("../img/retro-tv.png");
@@ -56,9 +61,12 @@
 	margin-top: -93px;
 	margin-left: -170px;
 }
-#newsletter-form {
-	float:none !important;
+.copyright{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
 }
-.social-links{
-	float: none;
+.social-links li{
+	margin:0;
 }
