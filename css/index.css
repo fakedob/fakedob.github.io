@@ -52,6 +52,9 @@ p {
 	z-index: 1;
 	pointer-events: none;
 }
+#tv .static{
+	background-image: url("../img/signal.png");
+}
 #tv iframe{
 	width:285px;
 	height:285px;

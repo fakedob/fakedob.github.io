@@ -1,5 +1,14 @@
 $(document).ready(function() {
-
+	var static = $('.tv.static');
+	setTimeout(function(){
+		static.hide();
+		setTimeout(function(){
+			static.show();
+			setTimeout(function(){
+				static.hide();
+			}, 200);
+		}, 100);
+	}, 500);
 	$('#newsletter-form').submit(function() {
 		var buttonCopy = $('#newsletter-form button').html(),
 		errorMessage = $('#newsletter-form button').data('error-message'),
